@@ -64,6 +64,7 @@ ifdef FULL_TESTS
 	go get -u github.com/golang/lint/golint
 	go get -u github.com/inconshreveable/mousetrap
 	go get -u github.com/tools/godep
+	go get -u github.com/goreleaser/nfpm/...
 endif
 
 # Update dependencies
